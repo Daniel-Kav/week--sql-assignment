@@ -1,12 +1,12 @@
 -- =====================================================
--- EXPANDED LOAN SHARK BUSINESS DATABASE IMPLEMENTATION (8 TABLES)
+-- LOAN SHARK BUSINESS DATABASE IMPLEMENTATION (8 TABLES)
 -- =====================================================
 
 -- =====================================================
 -- TABLE CREATION (DDL) - 8 TABLES
 -- =====================================================
 
--- Drop tables if they exist (for clean setup)
+-- Drop tables if they exist 
 DROP TABLE IF EXISTS audit_logs CASCADE;
 DROP TABLE IF EXISTS loan_officers CASCADE;
 DROP TABLE IF EXISTS collateral CASCADE;
