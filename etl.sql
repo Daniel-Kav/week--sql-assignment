@@ -139,3 +139,277 @@ FROM
 WHERE 
     table_name = 'dim_location';    
 
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_customer';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_sales';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_product';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_product';    
+
+-- CHECK FOR OUTLIERS
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_date';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_location';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_customer';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_sales';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_product';    
+
+-- CHECK FOR CONSISTENCY
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_date';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_location';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_customer';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_sales';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_product';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_product';    
+
+-- CHECK FOR ACCURACY
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_date';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_location';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_customer';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_sales';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_product';    
+
+-- CHECK FOR COMPLETENESS
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_date';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_location';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_customer';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_sales';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'fact_product';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_product';    
+
+-- CHECK FOR INTEGRITY
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_date';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_location';    
+
+SELECT 
+    column_name, 
+    data_type, 
+    character_maximum_length
+FROM 
+    information_schema.columns
+WHERE 
+    table_name = 'dim_customer';    
+
+-- demonstrate the difference between RANK() and DENSE_RANK with an example 
+
+
